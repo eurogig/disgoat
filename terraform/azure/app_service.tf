@@ -7,6 +7,18 @@ resource azurerm_app_service_plan "example" {
     tier = "Dynamic"
     size = "S1"
   }
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/app_service.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "db661720-5be9-4e51-aea0-c6bf0ad31bea"
+  }
 }
 
 resource azurerm_app_service "app-service1" {
@@ -17,6 +29,18 @@ resource azurerm_app_service "app-service1" {
   https_only          = false
   site_config {
     min_tls_version = "1.1"
+  }
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/app_service.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "468f6b7a-f0fa-4534-9080-925fe511cb75"
   }
 }
 
@@ -29,6 +53,18 @@ resource azurerm_app_service "app-service2" {
 
   auth_settings {
     enabled = false
+  }
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/app_service.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "82da9c5a-639e-4969-9791-2654834a4471"
   }
 }
 

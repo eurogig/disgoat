@@ -14,8 +14,18 @@ resource "azurerm_sql_server" "example" {
   administrator_login          = "ariel"
   administrator_login_password = "Aa12345678"
   tags = {
-    environment = var.environment
-    terragoat   = "true"
+    environment          = var.environment
+    terragoat            = "true"
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/sql.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "b020e881-5a65-413b-8ac2-96698928dcd8"
   }
 }
 
@@ -49,6 +59,18 @@ resource "azurerm_mysql_server" "example" {
   infrastructure_encryption_enabled = true
   public_network_access_enabled     = true
   ssl_enforcement_enabled           = false
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/sql.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "bda5ed21-031b-4881-a5bf-bf062a3212fd"
+  }
 }
 
 resource "azurerm_postgresql_server" "example" {
@@ -64,6 +86,18 @@ resource "azurerm_postgresql_server" "example" {
   administrator_login_password = "Aa12345678"
   version                      = "9.5"
   ssl_enforcement_enabled      = false
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/sql.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "b4e5f7bf-0427-4d32-a708-9eab5683fa5c"
+  }
 }
 
 resource "azurerm_postgresql_configuration" "thrtottling_config" {

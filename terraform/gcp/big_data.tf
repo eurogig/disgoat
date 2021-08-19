@@ -24,4 +24,16 @@ resource google_bigquery_dataset "dataset" {
     special_group = "allAuthenticatedUsers"
     role          = "READER"
   }
+  labels = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform__gcp__big_data_tf"
+    git_last_modified_at = "2021-08-19-12-44-42"
+    git_last_modified_by = "eurogig"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "5d7a28b2-b44c-4514-a932-7d6842dbf698"
+  }
 }

@@ -27,8 +27,18 @@ resource azurerm_linux_virtual_machine "linux_machine" {
   }
 
   tags = {
-    terragoat   = true
-    environment = var.environment
+    terragoat            = true
+    environment          = var.environment
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/instance.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "4e8a9e1b-9b81-4b5d-aba9-febd43747532"
   }
 }
 
@@ -53,7 +63,17 @@ resource azurerm_windows_virtual_machine "windows_machine" {
   }
 
   tags = {
-    terragoat   = true
-    environment = var.environment
+    terragoat            = true
+    environment          = var.environment
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/instance.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "069712cf-c091-46c0-8714-45c5bc89fcb7"
   }
 }

@@ -16,8 +16,18 @@ resource "azurerm_key_vault" "example" {
     ]
   }
   tags = {
-    environment = var.environment
-    terragoat   = true
+    environment          = var.environment
+    terragoat            = true
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/key_vault.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "b49486fc-4c14-47dc-b4fe-2ee10dbfeb41"
   }
 }
 
@@ -34,10 +44,34 @@ resource "azurerm_key_vault_key" "generated" {
     "verify",
     "wrapKey",
   ]
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/key_vault.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "4346151a-7578-4037-902d-19f9d22254f6"
+  }
 }
 
 resource "azurerm_key_vault_secret" "secret" {
   key_vault_id = azurerm_key_vault.example.id
   name         = "terragoat-secret-${var.environment}"
   value        = random_string.password.result
+  tags = {
+    git_commit           = "5b403ea072f7e71c052a7431d21c59b705d2ca2d"
+    git_file             = "terraform/azure/key_vault.tf"
+    git_last_modified_at = "2021-08-19 12:44:42"
+    git_last_modified_by = "eurogig@gmail.com"
+    git_modifiers        = "eurogig"
+    git_org              = "eurogig"
+    git_repo             = "disgoat"
+    level                = "development"
+    team                 = "seceng"
+    yor_trace            = "131849f7-dfd1-4430-9eb5-aa8c3e4395e7"
+  }
 }
