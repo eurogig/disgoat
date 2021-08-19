@@ -1,0 +1,14 @@
+bc-api-key: b0e5278a-d2c3-5685-a9a1-5d114780526e
+branch: master
+directory:
+- aws
+download-external-modules: false
+evaluate-variables: true
+external-modules-download-path: .external_modules
+framework: terraform
+output: cli
+quiet: true
+repo-id: eurogig/2minvideo
+skip-check:
+- CKV2_AWS_9
+soft-fail: true

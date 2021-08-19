@@ -1,0 +1,13 @@
+branch: master
+directory:
+- aws
+download-external-modules: false
+evaluate-variables: true
+external-modules-download-path: .external_modules
+framework: terraform
+output: cli
+quiet: true
+repo-id: eurogig/2minvideo
+skip-check:
+- CKV2_AWS_9
+soft-fail: true

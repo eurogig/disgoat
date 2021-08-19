@@ -1,0 +1,37 @@
+tag_groups:
+  - name: ownership
+    tags:
+      - name: team
+        value:
+          default: interfaces
+          matches:
+            - seceng:
+                tags:
+                  git_modifiers:
+                    - eurogig
+                    - tronxd
+                    - mattj
+            - platform:
+                tags:
+                  git_modifiers:
+                    - milkana
+                    - nofar
+                    - nimrodkor
+  - name: access
+    tags:
+      - name: level
+        value:
+          default: development
+          matches:
+            - development:
+                tags:
+                  git_org:
+                    - eurogig
+                    - tronxd
+                    - mattj
+            - operations:
+                tags:
+                  git_org:
+                    - bridgecrew
+                    - nofar
+                    - nimrodkor  

@@ -1,0 +1,5 @@
+name: pci-dss
+value:
+     default: true
+filters:
+     directory: /Users/sgiguere/code/bridgecrew/terragoat/terraform/azure/
