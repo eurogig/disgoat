@@ -9,4 +9,4 @@ definition:
        - "aws_s3_bucket"
        attribute: "tags.level"
        operator: "equals"
-       operator: "operations"
+       value: "operations"
