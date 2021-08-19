@@ -8,4 +8,5 @@ definition:
        resource_types: 
        - "aws_s3_bucket"
        attribute: "tags.level"
-       operator: "exists"
+       operator: "equals"
+       operator: "operations"
