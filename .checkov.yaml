@@ -8,4 +8,4 @@ evaluate-variables: true
 external-modules-download-path: .external_modules
 framework: all
 output: cli
-external-checks-dir: tag_checks
+external-checks-dir: custom_rules
