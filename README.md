@@ -1,4 +1,4 @@
-# Dev Innovation Summit - Vulnerable Terraform Infrastructure
+# fwd:cloudsec - Vulnerable Terraform Infrastructure
 
 [![Maintained by Bridgecrew.io](https://img.shields.io/badge/maintained%20by-bridgecrew.io-blueviolet)](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/bridgecrewio/terragoat/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=bridgecrewio%2Fterragoat&benchmark=INFRASTRUCTURE+SECURITY)
@@ -10,7 +10,7 @@
 [![slack-community](https://slack.bridgecrew.io/badge.svg)](https://slack.bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
 
 
-TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
+This is Bridgecrew's "Vulnerable by Design" Terraform repository.
 ![Terragoat](terragoat-logo.png)
 
 TerraGoat is Bridgecrew's "Vulnerable by Design" Terraform repository.
